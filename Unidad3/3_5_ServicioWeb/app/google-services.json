@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "25366184288",
+    "firebase_url": "https://servicioweb-d5e54.firebaseio.com",
+    "project_id": "servicioweb-d5e54",
+    "storage_bucket": "servicioweb-d5e54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25366184288:android:96367ab340fc8e13",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.a3_5_servicioweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25366184288-96nekmhrpv3flmk2a3qu9hloi3aecap8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.ittepic.a3_5_servicioweb",
+            "certificate_hash": "c576408b35646ce5a4ca2784dc111c9dfccdd784"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG9kCG1hkl7do4WaKo03yXd-5i3eqaLe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25366184288-rjrcm10nt22ucim64ehjbv2ta7eib81m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
