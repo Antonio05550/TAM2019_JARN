@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/espacio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/ani2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/asteroide"
+        tools:layout_editor_absoluteX="116dp" />
+
+    <Button
+        android:id="@+id/ani1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/a" />
+
+    <Button
+        android:id="@+id/ani2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/ani1"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/ani1"
+        android:background="@drawable/b" />
+
+    <Button
+        android:id="@+id/ani3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/ani1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="22dp"
+        android:layout_toEndOf="@+id/ani2"
+        android:background="@drawable/c" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720871002688",
+    "firebase_url": "https://proveedorc-165b6.firebaseio.com",
+    "project_id": "proveedorc-165b6",
+    "storage_bucket": "proveedorc-165b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720871002688:android:4d3dda9804d3e2b2",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.a5_5_proveedorc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720871002688-f00l9osq0rqp1gf74dsrjknoo1t716ml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.ittepic.a5_5_proveedorc",
+            "certificate_hash": "c576408b35646ce5a4ca2784dc111c9dfccdd784"
+          }
+        },
+        {
+          "client_id": "720871002688-7js0d1bd005rve4ci7o5f0fqg5184otg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHHJfAomFWB9YkcoE1dIerw2SB3gcyRmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720871002688-7js0d1bd005rve4ci7o5f0fqg5184otg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
